@@ -27,7 +27,7 @@ export default function HeaderLinks(props: { [x: string]: any }) {
   const user = useContext(UserContext);
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
-  const router = getRedirectMethod() === 'client' ? useRouter() : null;
+  const router = useRouter();
   const onOpen = () => {
     setOpen(false);
   };
@@ -40,7 +40,9 @@ export default function HeaderLinks(props: { [x: string]: any }) {
   const handleSignOut = async (e) => {
     e.preventDefault();
     supabase.auth.signOut();
-    router.push('/dashboard/signin');
+    if (getRedirectMethod() === 'client') {
+      router.push('/dashboard/signin');
+    }
   };
   if (!mounted) return null;
   return (
