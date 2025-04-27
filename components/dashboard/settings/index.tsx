@@ -18,7 +18,7 @@ interface Props {
   userDetails: { [x: string]: any } | null;
 }
 
-const supabase = createClient();
+const supabase = await createClient();
 export default function Settings(props: Props) {
   // Input States
   const [nameError, setNameError] = useState<{

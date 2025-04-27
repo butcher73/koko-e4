@@ -22,7 +22,7 @@ import {
 import { createClient } from '@/utils/supabase/client';
 import Link from 'next/link';
 
-const supabase = createClient();
+const supabase = await createClient();
 export default function HeaderLinks(props: { [x: string]: any }) {
   const { open, setOpen } = useContext(OpenContext);
   const user = useContext(UserContext);

@@ -22,7 +22,7 @@ import { getRedirectMethod } from '@/utils/auth-helpers/settings';
 import { UserContext, UserDetailsContext } from '@/contexts/layout';
 import { createClient } from '@/utils/supabase/client';
 
-const supabase = createClient();
+const supabase = await createClient();
 
 export interface SidebarProps extends PropsWithChildren {
   routes: IRoute[];
