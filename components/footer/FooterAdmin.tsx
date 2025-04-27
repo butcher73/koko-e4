@@ -25,7 +25,7 @@ export default function Footer() {
           <li>
             <a
               target="blank"
-              href="https://horizon-ui.com/"
+              href="https://kokoemon.xyz/"
               className="text-sm font-medium text-zinc-500 hover:text-zinc-950 dark:text-zinc-400"
             >
               Privacy Policy
@@ -34,7 +34,7 @@ export default function Footer() {
           <li>
             <a
               target="blank"
-              href="https://horizon-ui.com/boilerplate"
+              href="https://kokoemon.xyz/boilerplate"
               className="text-sm font-medium text-zinc-500 hover:text-zinc-950 dark:text-zinc-400"
             >
               Terms & Conditions
@@ -43,7 +43,7 @@ export default function Footer() {
           <li>
             <a
               target="blank"
-              href="https://blog.horizon-ui.com/"
+              href="https://blog.kokoemon.xyz/"
               className="text-sm font-medium text-zinc-500 hover:text-zinc-950 dark:text-zinc-400"
             >
               Refund Policy

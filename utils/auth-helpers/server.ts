@@ -23,7 +23,7 @@ export async function SignOut(formData: FormData) {
 
   if (error) {
     return getErrorRedirect(
-      'https://horizon-ui.com/dashboard/settings',
+      'https://kokoemon.xyz/dashboard/settings',
       'Hmm... Something went wrong.',
       'You could not be signed out.'
     );

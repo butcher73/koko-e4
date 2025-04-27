@@ -80,7 +80,7 @@ export default function HeaderLinks(props: { [x: string]: any }) {
         <DropdownMenuContent className="w-56 p-2">
           <Link
             target="blank"
-            href="https://horizon-ui.com/boilerplate-shadcn#pricing"
+            href="https://kokoemon.xyz/boilerplate-shadcn#pricing"
             className="w-full"
             // className="flex h-[44px] w-full min-w-[44px] cursor-pointer items-center rounded-lg border border-zinc-200 bg-transparent text-center text-sm font-medium text-zinc-950 duration-100 placeholder:text-zinc-950 hover:bg-gray-100 focus:bg-zinc-200 active:bg-zinc-200 dark:border-white/10 dark:bg-zinc-950 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/20 dark:active:bg-white/20"
           >
@@ -88,7 +88,7 @@ export default function HeaderLinks(props: { [x: string]: any }) {
               Pricing
             </Button>
           </Link>
-          <Link target="blank" href="mailto:hello@horizon-ui.com">
+          <Link target="blank" href="mailto:hello@kokoemon.xyz">
             <Button variant="outline" className="mb-2 w-full">
               Help & Support
             </Button>
