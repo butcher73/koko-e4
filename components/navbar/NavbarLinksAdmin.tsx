@@ -20,6 +20,7 @@ import {
   HiOutlineArrowRightOnRectangle
 } from 'react-icons/hi2';
 import { createClient } from '@/utils/supabase/client';
+import Link from 'next/link';
 
 const supabase = createClient();
 export default function HeaderLinks(props: { [x: string]: any }) {
@@ -77,7 +78,7 @@ export default function HeaderLinks(props: { [x: string]: any }) {
           </Button>
         </DropdownMenuTrigger>
         <DropdownMenuContent className="w-56 p-2">
-          <a
+          <Link
             target="blank"
             href="https://horizon-ui.com/boilerplate-shadcn#pricing"
             className="w-full"
@@ -86,17 +87,17 @@ export default function HeaderLinks(props: { [x: string]: any }) {
             <Button variant="outline" className="mb-2 w-full">
               Pricing
             </Button>
-          </a>
-          <a target="blank" href="mailto:hello@horizon-ui.com">
+          </Link>
+          <Link target="blank" href="mailto:hello@horizon-ui.com">
             <Button variant="outline" className="mb-2 w-full">
               Help & Support
             </Button>
-          </a>
-          <a target="blank" href="/#faqs">
+          </Link>
+          <Link target="blank" href="/#faqs">
             <Button variant="outline" className="w-full">
               FAQs & More
             </Button>
-          </a>
+          </Link>
         </DropdownMenuContent>
       </DropdownMenu>
 
@@ -107,7 +108,7 @@ export default function HeaderLinks(props: { [x: string]: any }) {
       >
         <HiOutlineArrowRightOnRectangle className="h-4 w-4 stroke-2 text-zinc-950 dark:text-white" />
       </Button>
-      <a className="w-full" href="/dashboard/settings">
+      <Link className="w-full" href="/dashboard/settings">
         <Avatar className="h-9 min-w-9 md:min-h-10 md:min-w-10">
           <AvatarImage src={user?.user_metadata.avatar_url} />
           <AvatarFallback className="font-bold">
@@ -116,7 +117,7 @@ export default function HeaderLinks(props: { [x: string]: any }) {
               : `${user?.email[0].toUpperCase()}`}
           </AvatarFallback>
         </Avatar>
-      </a>
+      </Link>
     </div>
   );
 }
