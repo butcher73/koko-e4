@@ -8,7 +8,7 @@ Kokoemon is a modern web3 UI development platform that leverages AI to streamlin
 
 ## Features
 
-- 🎨 Modern UI inspired by Horizon UI
+- 🎨 Modern UI inspired by Kokoemon
 - 🤖 AI-powered development assistance
 - ⚡️ Built with Next.js 15.3.1
 - 🎯 TypeScript 5 for type safety

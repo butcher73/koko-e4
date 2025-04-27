@@ -53,11 +53,10 @@ export default function DefaultAuthLayout(props: DefaultAuthLayoutProps) {
               className={`flex w-full flex-col items-center justify-center text-2xl font-bold text-white`}
             >
               <h4 className="mb-5 flex w-[600px] items-center justify-center rounded-md text-center text-2xl font-bold">
-                “This library has saved me countless hours of work and helped me
-                deliver stunning designs to my clients faster than ever before.”
+                “Use the Force, Luke..”
               </h4>
               <h5 className="text-xl font-medium leading-5 text-zinc-300">
-                Sofia Davis - CTO Kokoemon
+                Yoda - Jedi Master
               </h5>
             </div>
           </div>

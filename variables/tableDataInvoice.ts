@@ -13,7 +13,7 @@ const tableDataInvoice: RowObj[] = [
 		amount: 9.0
 	},
 	{
-		item: 'Horizon UI - Dashboard PRO',
+		item: 'Kokoemon - Dashboard PRO',
 		quantity: 3,
 		rate: 99.0,
 		amount: 297.0

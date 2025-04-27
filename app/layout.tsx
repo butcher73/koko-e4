@@ -14,7 +14,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <title>
-          Horizon UI Boilerplate - Launch your startup project 10X in a few
+          Kokoemon Boilerplate - Launch your startup project 10X in a few
           moments - The best NextJS Boilerplate (This is an example)
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
