@@ -149,7 +149,7 @@
     "tabWidth": 2,
     "trailingComma": "none"
   },
-  "description": "&nbsp; <p align=\"center\">   <a href=\"https://horizon-ui.com/boilerplate-shadcn\" target=\"_blank\">     <img src=\"https://i.ibb.co/DGSsjWL/top-boilerplate-shadcn-readme.png\" alt=\"Horizon AI Boilerplate Admin Dashboard NextJS Shadcn UI\" width=\"300px\" max-width=\"400px\">   </a> </p>",
+  "description": "Kokoemon is a modern web3 UI development platform that leverages AI to streamline the development process. Built with Next.js, TypeScript, and Tailwind CSS, it provides a powerful and intuitive interface for creating web3 applications.",
   "main": "next.config.js",
   "directories": {
     "lib": "lib"
