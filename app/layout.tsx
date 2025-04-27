@@ -14,60 +14,62 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <head>
         <title>
-          Kokoemon Boilerplate - Launch your startup project 10X in a few
-          moments - The best NextJS Boilerplate (This is an example)
+          Kokoemon - AI-Powered Web3 UI Development Platform | Build Faster, Build Better
         </title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <!--  Social tags   --> */}
         <meta
           name="keywords"
-          content="Add here your main keywords and separate them with a comma"
+          content="web3 development, UI platform, AI development, NextJS, TypeScript, Tailwind CSS, Supabase, blockchain UI, dApp development"
         />
-        <meta name="description" content="Add here your website description" />
+        <meta 
+          name="description" 
+          content="Kokoemon is an AI-powered web3 UI development platform that helps developers build stunning blockchain applications faster. Built with Next.js, TypeScript, and Tailwind CSS."
+        />
         {/* <!-- Schema.org markup for Google+ --> */}
-        <meta itemProp="name" content="Add here your website name / title" />
+        <meta itemProp="name" content="Kokoemon - AI-Powered Web3 UI Development Platform" />
         <meta
           itemProp="description"
-          content="Add here your website description"
+          content="Build web3 applications 10x faster with Kokoemon's AI-powered development platform. Modern UI components, TypeScript support, and seamless blockchain integration."
         />
         <meta
           itemProp="image"
-          content="Add here the link for your website SEO image"
+          content="https://kokoemon.xyz/og-image.png"
         />
         {/* <!-- Twitter Card data --> */}
-        <meta name="twitter:card" content="product" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Add here your website name / title"
+          content="Kokoemon - AI-Powered Web3 UI Development Platform"
         />
         <meta
           name="twitter:description"
-          content="Add here your website description"
+          content="Build web3 applications 10x faster with Kokoemon's AI-powered development platform. Modern UI components, TypeScript support, and seamless blockchain integration."
         />
         <meta
           name="twitter:image"
-          content="Add here the link for your website SEO image"
+          content="https://kokoemon.xyz/og-image.png"
         />
         {/* <!-- Open Graph data --> */}
         <meta
           property="og:title"
-          content="Add here your website name / title"
+          content="Kokoemon - AI-Powered Web3 UI Development Platform"
         />
-        <meta property="og:type" content="product" />
-        <meta property="og:url" content="https://your-website.com" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://kokoemon.xyz" />
         <meta
           property="og:image"
-          content="Add here the link for your website SEO image"
+          content="https://kokoemon.xyz/og-image.png"
         />
         <meta
           property="og:description"
-          content="Add here your website description"
+          content="Build web3 applications 10x faster with Kokoemon's AI-powered development platform. Modern UI components, TypeScript support, and seamless blockchain integration."
         />
         <meta
           property="og:site_name"
-          content="Add here your website name / title"
+          content="Kokoemon"
         />
-        <link rel="canonical" href="https://your-website.com" />
+        <link rel="canonical" href="https://kokoemon.xyz" />
         <link rel="icon" href="/img/favicon.ico" />
       </head>
       <body id={'root'} className="loading bg-white">

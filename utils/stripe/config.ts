@@ -11,8 +11,8 @@ export const stripe = new Stripe(
     // https://stripe.com/docs/building-plugins#setappinfo
     appInfo: {
       name: 'Kokoemon',
-      version: '1.1.0',
-      url: 'https://github.com/horizon-ui/shadcn-nextjs-boilerplate'
+      version: '0.4.0',
+      url: 'https://github.com/butcher73/koko-e4'
     }
   }
 );
